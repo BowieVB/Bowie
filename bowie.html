@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+            <img src="imageslogo.png" alt="Bowie" class="logo">
+            <h1>Bowie</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0);" class="tablink" onclick="openTab(event, 'inicio')">Inicio</a></li>
+                    <li><a href=
+                        "javascript:void(0);" class="tablink" onclick="openTab(event, 'sobre-nosotros')">Sobre Nosotros</a></li>
+                    <li><a href="javascript:void(0);" class="tablink" onclick="openTab(event, 'servicio')">Servicio</a></li>
+                    <li><a href="javascript:void(0);" class="tablink" onclick="openTab(event, 'contacto')">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="tabcontent">
+            <div class="container">
+    <section id="hero">
+        <div class="hero-container">
+            <h2>Bienvenido a Bowie</h2>
+            <p>Hey, estoy aqui para ayudarte.</p>
+        </div>
+    </section>
+                    <div class="columns">
+                        <div class="column">
+                            <img src="bogota.jpg" alt width="550" height="300" alt="Bogotá"; class="bogota">
+                    </div>
+                        <div class="column">
+                            <h2>Sobre Nosotros</h2>
+                            <p>Si eres de los que siempre está en busca de nuevos eventos y 
+                               actividades en la ciudad de Bogotá, entonces debes conocer a Bowie, tu
+                               nuevo asistente virtual en el mundo del entretenimiento. Con su 
+                               amplio conocimiento sobre los eventos que se están realizando en la 
+                               capital colombiana, Bowie se ha convertido en el mejor aliado para 
+                               aquellos que buscan diversión y cultura.</p> 
+                        
+                            <a href="#sobre-nosotros" class="btn" onclick="openTab(event, 'sobre-nosotros')">Leer más</a></p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+                <h3>Servicio</h3>
+                <p></p>
+                    <div class="grid-container">
+                       <div class="servicio"> 
+                        <li>Búsqueda de eventos en la ciudad de Bogotá</li>
+                        <li>Información detallada sobre eventos, como fecha, lugar, horario, descripción, entre otros</li>
+                        <li>Direccionamiento para la compra de entradas</li>
+                       </div>
+                        
+                       <div class="servicio">
+                        <li>Información sobre transporte y accesibilidad a eventos</li>
+                        <li>Mapa interactivo con la ubicación de los eventos</li>
+                        <li>Información sobre promociones y descuentos en eventos</li>
+                       </div>
+                        
+                        <div class="servicio">
+                        <li>Información sobre artistas y/o presentadores de eventos</li>
+                        <li>Posibilidad de agregar eventos a un gestor de eventos</li>
+                        <li>Recomendaciones de eventos por localidades</li>
+                       </div></div>
+
+                       <p></p>
+                       <p></p>
+                       <p></p>
+                       <p></p>
+                       <p></p>
+                       <p></p>
+
+                <a href="#servicio" class="btn" onclick="openTab(event, 'servicio')">Mostrar más</a></p>
+                
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                
+                <h3>Contacto</h3>
+                <div class="columns">
+                    <div class="column">
+                        <h4>Detalles de contacto</h4>
+                        <p></p>
+                        <h4>Bowie</h4>
+                        <p> Bogotá, 111911.</p>
+                        <p></p>
+                        <h4>Email</h4>
+                        <p> bowie202324@gmail.com</p>
+                        <p></p>
+                        <h4>Teléfono</h4>
+                        <p> 3142510085</p> 
+                        <p></p>
+                    </div>
+                    <div class="column">
+                        <form id="contact-form" action="send_email.php" method="post">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                    
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" required></textarea>
+                    
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/bowie.vb2?igsh=ZGVlczJsZXZ6cnpu" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61559818133788" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <section id="sobre-nosotros" class="tabcontent">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <img src="bogotanoche.png" alt width="550" height="570" alt="Bogotá"; class="bogota">
+                </div>
+                    <div class="column">
+                <h2>Sobre Nosotros</h2>
+                <p>Bowie es el asistente virtual que está revolucionando el mundo del
+                   marketing de eventos en la ciudad de Bogotá. Nuestro objetivo es 
+                   ayudar a los usuarios a encontrar los mejores eventos que se están
+                   llevando a cabo en la ciudad, brindándoles información detallada y 
+                   actualizada. Con Bowie, los usuarios pueden descubrir fácilmente
+                   eventos de su interés y mantenerse al día con las últimas tendencias
+                   en entretenimiento y cultura en Bogotá.</p>
+                <p></p>   
+                <p></p>
+                <p></p>
+                <p></p>
+                <p>Bowie nació de la necesidad de conectar a los habitantes de la ciudad
+                   de Bogotá con la amplia oferta de eventos culturales, deportivos, 
+                   musicales y de entretenimiento que la ciudad ofrece. Con el auge de la
+                   tecnología y la creciente demanda de información en tiempo real, nos 
+                   dimos cuenta de que había una oportunidad para crear un asistente 
+                   virtual que pudiera brindar a los usuarios la información que 
+                   necesitan de manera rápida y eficiente. Así nació Bowie, un 
+                   compañero digital que te mantendrá al día con los mejores eventos de
+                   la ciudad y te ayudará a planear tu tiempo de manera inteligente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicio" class="tabcontent">
+            <div class="container">
+                <h2>Servicio</h2>
+                <p></p>
+                <div class="grid-container">
+                    <div class="servicio"> 
+                        <li>Buscar eventos en la ciudad de Bogotá</li>
+                        <li>Mostrar la descripción y detalles de los eventos</li>
+                        <li>Consultar la fecha y hora del evento</li>
+                        <li>Obtener información a travez de direccionamiento de enlaces</li>
+                        <li>Recomendaciones de eventos por localidades</li>
+                    </div>
+                        
+                    <div class="servicio">
+                       <li>Información detallada sobre eventos, como fecha, lugar, horario, descripción, entre otros</li>
+                        <li>Conocer la temática y tipo de evento</li>
+                        <li>Consultar el programa y horarios del evento</li>
+                        <li>Obtener información sobre la edad mínima para asistir al evento</li>
+                        <li>Ver la ubicación y cómo llegar al evento</li>
+                        
+                    </div>
+                        
+                    <div class="servicio">
+                        <li>Mapa interactivo con la ubicación de los eventos</li>
+                        <li>Conocer la duración del evento</li>
+                        <li>Información sobre artistas y/o presentadores de eventos</li>
+                        <li>Posibilidad de agregar eventos por medio de gestor de eventos</li>
+                        <li>Direccionamiento para la compra de entradas</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="tabcontent">
+            <div class="container">
+                <h2>Contacto</h2>
+                <div class="columns">
+                    <div class="column">
+                        <p>¡Hola! Si necesitas contactarnos para obtener más información sobre 
+                            los eventos de la ciudad de Bogotá, puedes hacerlo de varias formas. 
+                            Puedes enviarnos un correo electrónico a nuestro correo electrónico 
+                            de atención al cliente: bowie202324@gmail.com Estaremos encantados de 
+                            responder tus preguntas y brindarte toda la información que necesites.
+                        </p>
+                        <h4>Detalles de contacto</h4>
+                        <p></p>
+                        <h4>Bowie</h4>
+                        <p> Bogotá, 111911.</p>
+                        <p></p>
+                        <h4>Email</h4>
+                        <p> bowie202324@gmail.com</p>
+                        <p></p>
+                        <h4>Teléfono</h4>
+                        <p> 3142510085</p> 
+                        <p></p>
+                    </div>
+                    <div class="column">
+                        <p>Para realizar un pedido de informacion o ser un gestor con Bowie, debes 
+                           seguir los siguientes pasos: 1. Abre el sitio web de Bowie. 2. Selecciona 
+                           la opción de "Contacto". 3. Se te pedirá que ingreses tu nombre, email y 
+                           el mensaje sobre lo que quieres pedir. 4.Se te enviara la información.
+                        </p>
+                <form id="contact-form" action="send_email.php" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/bowie.vb2?igsh=ZGVlczJsZXZ6cnpu" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61559818133788" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bowie. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+
+            // Oculta todas las pestañas
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Remueve la clase "active" de todos los enlaces de pestañas
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Muestra la pestaña actual y agrega una clase "active" al enlace de la pestaña que abrió la pestaña
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Mostrar la primera pestaña por defecto
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('inicio').style.display = 'block';
+            document.querySelector('.tablink').classList.add('active');
+        });
+</script>
+
+<script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '6642282ef009f48ec9ea468b' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+
+</body>
+</html>
